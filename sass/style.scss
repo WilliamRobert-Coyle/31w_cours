@@ -14,6 +14,10 @@ Text Domain: 31-w
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
+#variable
+	-couleur
+	-police
+	-dimension
 # Generic
 	- Normalize
 	- Box sizing
@@ -35,10 +39,12 @@ Text Domain: 31-w
 	- Accessibility
 	- Alignments
 
---------------------------------------------------------------*/
+/* variable
+--------------------------------------------- */
 
-// Import variables and mixins.
-@import "abstracts/abstracts";
+@import "variable/typography";
+@import "variable/dimension";
+@import "variable/colors";
 
 /*--------------------------------------------------------------
 # Generic
