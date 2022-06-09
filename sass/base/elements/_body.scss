@@ -1,3 +1,28 @@
 body {
 	background: $color__background-body; // Fallback for when there is no custom background color defined.
 }
+
+.site__branding {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $color_header;
+}
+
+.site__navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: $color_background_nav;
+	width: 100%;
+}
+.site__navigation p {
+	color: $color_text_nav;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+}
+
+

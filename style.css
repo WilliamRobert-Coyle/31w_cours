@@ -375,7 +375,30 @@ html {
 /* Elements
 --------------------------------------------- */
 body {
-  background: #fff;
+  background: #edf5f3;
+}
+
+.site__branding {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #edf5e1;
+}
+
+.site__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #1b2655;
+  width: 100%;
+}
+
+.site__navigation p {
+  color: #e0dfd9;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 hr {

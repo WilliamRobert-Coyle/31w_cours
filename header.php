@@ -25,9 +25,12 @@
                 <?= bloginfo('description'); ?>
                 </h2>
             </section>
-            <nav class="site__navigation">
-            Menu
-            </nav>
+                <nav class="site__navigation">
+                    <p>Menu</p>
+                    <p>Menu</p>
+                    <p>Menu</p>
+                    <p>Menu</p>
+                </nav>
         </header>
     
 
