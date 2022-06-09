@@ -2,7 +2,7 @@
 ## Premier thème et plugin  Wordpress
 ### Contient 3 commits
 
-[github-page](https://github.com/WilliamRobert-Coyle/31w)
+[github-page](https://williamrobert-coyle.github.io/31w_cours/)
 > Le thème conient 5 fichiers:
 index.php
 style.css
