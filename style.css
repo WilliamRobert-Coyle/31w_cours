@@ -407,6 +407,10 @@ body {
   transform: scale(1.02);
 }
 
+.hero__titre {
+  text-align: center;
+}
+
 hr {
   background-color: #ccc;
   border: 0;
