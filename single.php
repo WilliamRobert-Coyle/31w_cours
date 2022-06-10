@@ -1,5 +1,7 @@
 <?php get_header(); ?> 
+<div class="hero__titre">
 <h1>single page Mon premier modèle Wordpress</h1>
+</div>
 <?php
 if (have_posts()):
     while(have_posts()) : the_post(); ?>
