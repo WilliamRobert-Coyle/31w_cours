@@ -411,6 +411,10 @@ body {
   text-align: center;
 }
 
+.container {
+  text-align: center;
+}
+
 hr {
   background-color: #ccc;
   border: 0;
