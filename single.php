@@ -2,6 +2,7 @@
 <div class="hero__titre">
 <h1>single page Mon premier modèle Wordpress</h1>
 </div>
+<div class="container">
 <?php
 if (have_posts()):
     while(have_posts()) : the_post(); ?>
@@ -16,6 +17,7 @@ if (have_posts()):
         <code><?= $heure ?></code>
 
     <?php endwhile; ?>
-<?php endif; ?>    
+<?php endif; ?>
+</div>
 
 <?php get_footer(); ?>
