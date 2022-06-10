@@ -13,16 +13,20 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
 	background-color: $color_background_nav;
-	width: 100%;
+	max-height: 50px;
 }
 .site__navigation p {
 	color: $color_text_nav;
 	padding-left: 40px;
 	padding-right: 40px;
-	
+}
+
+.site__navigation p:hover {
+	border-bottom: 1px solid #e0dfd9;
+}
+.site__navigation:active {
+	transform: scale(1.02);
 }
 
 
