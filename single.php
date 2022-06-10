@@ -19,5 +19,6 @@ if (have_posts()):
     <?php endwhile; ?>
 <?php endif; ?>
 </div>
+<br>
 
 <?php get_footer(); ?>
