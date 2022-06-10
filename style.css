@@ -415,6 +415,10 @@ body {
   text-align: center;
 }
 
+.site__footer {
+  text-align: center;
+}
+
 hr {
   background-color: #ccc;
   border: 0;
